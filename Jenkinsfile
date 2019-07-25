@@ -4,7 +4,7 @@ pipeline {
   stages {        
     stage('git_clone') {
       steps {
-        git 'https://github.com/krishnaprasadkv/Nodejs.git'
+        git 'https://github.com/anjanidevio/aks.git'
       }
     }        
     stage('npm_install') {
